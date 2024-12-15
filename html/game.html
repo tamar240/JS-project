@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="stylesheet" href="../css/game.css">
+</head>
+<body>
+    <div  id="fainalGame"></div>
+    <div id="father">
+    <div id="tblDiv"></div>
+    <aside>
+        <div id="timer" class="timmerscore">Timer:
+            <br>
+            <span id="countDown"></span>
+        </div>
+        <div id="scoreDiv" class="timmerscore">Your Score: 
+            <br>
+            <span id="counterScore">0</span>
+            <br>
+        </div>
+
+        <button id="startGame" class="btnsGame">start</button>
+        <button id="newGame" class="btnsGame">new game</button>
+        <button id="changAmountCards" class="btnsGame">change level</button>
+     
+    </aside>
+</div>
+    <audio controls="controls" class="audio" id="bip">
+        <source src="../audio/press_card.mp3" />
+    </audio>
+    <audio controls="controls" class="audio" id="x">
+        <source src="../audio/x.mp3" />
+    </audio>
+    <audio controls="controls" class="audio" id="singleWin">
+        <source src="../audio/singleWin.mp3" />
+    </audio> 
+    <audio controls="controls" class="audio" id="finalWin">
+        <source src="../audio/finalWin.mp3" />
+    </audio>
+     <audio controls="controls" class="audio" id="notSame">
+        <source src="../audio/notSame.mp3" />
+    </audio>
+    <audio controls="timeLeft" class="audio" id="timeLeft">
+        <source src="../audio/timeLeft.mp3" />
+    </audio>
+    <audio controls="gameOver" class="audio" id="gameOver">
+        <source src="../audio/pizuz.mp3" />
+    </audio>
+    <script src="../js/game.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>memory game</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <h1 id="home_title">Memory Game</h1>
+    <div id="levels" class="container">
+
+        <div class="levelBtn">
+            <form action="">
+                <input name="age" type="number" min="0" max="120" placeholder="הכנס גיל">
+                <button id="age" type="submit">הצג את הרמה בהתאם לגיל </button>
+            </form>
+            <br/>
+            <div id="level"></div>
+        </div>
+
+        <a class="levelBtn" id="l24" href="html/game.html?nrow=5&ncol=6">
+            <span>level C</span>
+            <br>
+            <span>30 cards</span>
+            <br>
+        </a>
+        <a class="levelBtn" id="l40" href="html/game.html?nrow=5&ncol=8">
+            <span>level B</span>
+            <br>
+            <span>40 cards</span>
+            <br>
+        </a>
+        <a class="levelBtn" id="l60" href="html/game.html?nrow=6&ncol=10">
+            <span>level A</span>
+            <br>
+            <span>60 cards</span>
+            <br>
+        </a>
+    </div>
+    </div>
+  <script src="js/home.js"></script>
+
+</body>
+
+</html>
